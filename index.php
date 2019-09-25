@@ -26,6 +26,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 <link href="styles/style.css" rel="stylesheet">
 
 <script src ="javascript/main.js"></script>
@@ -133,9 +134,15 @@
         </div>        
     </div>
     <footer>
-        <br>
-        <p>CircleHosting © 2016-2019 Ertomedia Solusindo.</p>
-        <p><small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a> created by <a href="https://charlesabarnes.com">Charles Barnes</a></small></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <p>CircleHosting © 2016-2019 Ertomedia Solusindo.</p>
+                    <p><small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a> created by <a href="https://charlesabarnes.com">Charles Barnes</a></small></p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
