@@ -17,6 +17,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="SPFToolbox">
 <meta name="theme-color" content="#44c0f0">
+<link rel="shortcut icon" href="https://cdn.circlehosting.net/imgs/favicon.ico" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -34,15 +35,15 @@
 
 </head>
 <body>
-    <a href="https://github.com/charlesabarnes/SPFtoolbox" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#44c0f0; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="#fff" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="#fff" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <a href="https://github.com/ertomedia/SPFtoolbox" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#44c0f0; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="#fff" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="#fff" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
     <div class="container">
         <div class="row" id="top-row">
             <div class="col-md-12">
-                <H1 class="logo"><Span class = "logo-style1">SPF</Span>Toolbox</H1>
+                <img src="https://cdn.circlehosting.net/imgs/circlehostinglogo-ver2-rgb-220x81.png" alt="Logo" />
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-10 col-md-offset-1">
                     <span class="form-label">Domain:&nbsp;</span><input type="text" name="domain" id="domain" class="form-control">
                     <select onchange="showAdditionalFields()" id="file" class="form-control">
                         <option value="a">IP/Get A Record</option>
@@ -66,62 +67,74 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <span id="txtHint" style="color: red;"></span>
                 <div id="loading">
-                <div class="info">
-                <h3>About SPF Toolbox</h3>
-                <span>SPF Toolbox was created to be an easy, free open source way for people to get information about their domain. Please click the link in the top right to let me know if you have any questions or suggestions for the app.</span>
-                <br/>
-                <br/>
-                <br/>
-                    <table>
-                        <tr>
-                            <th>Query</th>
-                            <th>Description</th>
-                        </tr>
-                        <tr>
-                            <td>IP/Get A Record</td>
-                            <td>An A Record is used to associate a domain name with an IP(v4) address. This query checks for the A records set on the domain</td>
-                        </tr>
-                        <tr>
-                            <td>IPV6/Get AAAA Record</td>
-                            <td>An AAAA Record is used to associate a domain name with an IP(v6) address. This query checks for the AAAA records set on the domain</td>
-                        </tr>
-                        <tr>
-                            <td>Mx/Get MX Record</td>
-                            <td>MX stands for Mail Exchanger.  This query is used to get the mail server used for accepting emails on the specified domain.</td>
-                        </tr>
-                        <tr>
-                            <td>SPF/TXT</td>
-                            <td>A SPF Record is used to indicate which email hosts is authorized to send mail on the specified domain's behalf.  This query is used to get the authorized domains</td>
-                        </tr>
-                        <tr>
-                            <td>Blacklist Check</td>
-                            <td>This query is used to check if the specified domain is on any of the most well known email blacklist sites.  If a domain is on a blacklist the row will return a fail result.</td>
-                        </tr>
-                        <tr>
-                            <td>Whois</td>
-                            <td>This information gets whois information to see who possibly owns the domain.</td>
-                        </tr>
-                        <tr>
-                            <td>Check If Port Open/Forwarded</td>
-                            <td>You are able to Check if a specified port on a domain or IP address is open for use such as hosting</td>
-                        </tr>
-                        <tr>
-                            <td>Hinfo/Get Hardware Information</td>
-                            <td>If available, this query gets the hardware information of the server for the specified hostname</td>
-                        </tr>
-                        <tr>
-                            <td>Get All Simple DNS Records</td>
-                            <td>This query attemps to do a request for all of the available DNS information for the specified hostname.  This is not always successfull as some providers block the request.</td>
-                        </tr>
-                        <tr>
-                            <td>Host By IP/Reverse Lookup</td>
-                            <td>The query attempts to find a hostname associated with an IP address</td>
-                        </tr>
-                    </table>
-                </div>
+                    <div class="info">
+                        <h3>About SPF Toolbox</h3>
+                        <span>SPF Toolbox was created to be an easy, free open source way for people to get information about their domain. Please click the link in the top right to let me know if you have any questions or suggestions for the app.</span>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <table>
+                                    <tr>
+                                        <th>Query</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    <tr>
+                                        <td>IP/Get A Record</td>
+                                        <td>An A Record is used to associate a domain name with an IP(v4) address. This query checks for the A records set on the domain</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IPV6/Get AAAA Record</td>
+                                        <td>An AAAA Record is used to associate a domain name with an IP(v6) address. This query checks for the AAAA records set on the domain</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mx/Get MX Record</td>
+                                        <td>MX stands for Mail Exchanger.  This query is used to get the mail server used for accepting emails on the specified domain.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SPF/TXT</td>
+                                        <td>A SPF Record is used to indicate which email hosts is authorized to send mail on the specified domain's behalf.  This query is used to get the authorized domains</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Blacklist Check</td>
+                                        <td>This query is used to check if the specified domain is on any of the most well known email blacklist sites.  If a domain is on a blacklist the row will return a fail result.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <table>
+                                    <tr>
+                                        <th>Query</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Whois</td>
+                                        <td>This information gets whois information to see who possibly owns the domain.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Check If Port Open/Forwarded</td>
+                                        <td>You are able to Check if a specified port on a domain or IP address is open for use such as hosting</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hinfo/Get Hardware Information</td>
+                                        <td>If available, this query gets the hardware information of the server for the specified hostname</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Get All Simple DNS Records</td>
+                                        <td>This query attemps to do a request for all of the available DNS information for the specified hostname.  This is not always successfull as some providers block the request.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Host By IP/Reverse Lookup</td>
+                                        <td>The query attempts to find a hostname associated with an IP address</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,18 +145,13 @@
                     </div>
                 </div>
         </div>        
-    </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <br>
-                    <p>CircleHosting © 2016-2019 Ertomedia Solusindo.</p>
-                    <p><small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a> created by <a href="https://charlesabarnes.com">Charles Barnes</a></small></p>
-                </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p>CircleHosting © 2016-2019 Ertomedia Solusindo.<br />
+                <small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a>.</small></p>
             </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>
