@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> SPFToolbox </title>
+<title> Whois - CircleHosting </title>
 <meta name="description" content="SPFtoolbox is a Javascript and PHP app to look up DNS records such as SPF, MX, Whois, and more">
 <meta property="og:description" content="SPFtoolbox is a Javascript and PHP app to look up DNS records such as SPF, MX, Whois, and more" />
 <meta name="keywords" content="Github, Open Source, MXToolbox, DNS, Blacklist, MX, PHP">
@@ -134,18 +134,10 @@
     </div>
     <footer>
         <br>
-        <p>Created by <a href="https://charlesabarnes.com">Charles Barnes</a> | Contact: <a href="mailto:charles@charlesabarnes.com">charles@charlesabarnes.com</a></p>
+        <p>CircleHosting © 2016-2019 Ertomedia Solusindo.</p>
+        <p><small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a> created by <a href="https://charlesabarnes.com">Charles Barnes</a></small></p>
     </footer>
 </body>
 
 </html>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88348393-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-88348393-1');
-</script>
-<!-- testing -->
+<!-- In-house Analytics -->
