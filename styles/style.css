@@ -78,8 +78,6 @@ td {
     background-color: white !important;
 }
 
-hr {}
-
 caption { 
     background-color: rgb(90,85,90);
     font-weight: bold;
@@ -89,10 +87,6 @@ caption {
     letter-spacing: .085em;
     text-align: center !important;
 }
-
-#top-row {}
-
-input, select, .form-label {}
 
 .form-control {
     align-items: center;

@@ -153,9 +153,9 @@
                     <p>CircleHosting © 2016-2019 <a href="https://ertomedia.com" target="_blank">Ertomedia Solusindo</a>. Some rights reserved.<br />
                     <small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox">SPFToolbox</a></small></p>
                     <p>
-                        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ertomedia/SPFtoolbox/2.0?style=flat-square?logo=github"> 
-                        <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/ertomedia/SPFtoolbox/2.0?style=flat-square?logo=github"> 
-                        <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fertomedia?logo=twitter"> 
+                        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ertomedia/SPFtoolbox/2.0?style=flat-square"> 
+                        <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/ertomedia/spftoolbox/2.0?style=flat-square"> 
+                        <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fertomedia"> 
                     </p>
                 </div>
             </div>

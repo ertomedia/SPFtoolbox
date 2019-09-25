@@ -1,10 +1,9 @@
 ![Logo](http://i.imgur.com/itUhheI.png "Logo")
 
-[![CDNJS](https://img.shields.io/cdnjs/v/jquery.svg)](https://cdnjs.com/libraries/jquery)
 ![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwhois.circlehosting.net)
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ertomedia/SPFtoolbox/2.0?style=flat-square?logo=github)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ertomedia/SPFtoolbox/2.0?style=flat-square?logo=github)
-![Twitter URL](https://img.shields.io/twitter/url?style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fertomedia?logo=twitter)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ertomedia/SPFtoolbox/2.0?style=flat-square)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ertomedia/SPFtoolbox/2.0?style=flat-square)
+![Twitter URL](https://img.shields.io/twitter/url?style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fertomedia)
 
 SPFtoolbox is an Application to check simple information such as SPF, DNS records, and more
 
