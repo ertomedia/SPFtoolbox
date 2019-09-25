@@ -1,7 +1,12 @@
 * {
     color: #333;
+    font-family: 'Montserrat', sans-serif;
 }
 
+#responseArea {
+    width: 100%;
+    display: block;
+}
 [class*="responseRow"] {
     width: 100%;
     margin-top: 40px;
@@ -12,37 +17,29 @@
     width: 100%;
     border-radius: 10px;
 }
-
 [class*="responseRow"] table tr td {
     background-color: #ccc;
     padding: 5px;
 
 }
-
 [class*="responseRow"] table tr:nth-child(2n) td {
     background-color: #eee !important;
 }
-
 .twoCol:first-child td:first-child {
     border-top-left-radius: 10px;
 }
-
 .twoCol:first-child td:last-child {
     border-top-right-radius: 10px;
 }
-
 .twoCol:last-child td:first-child {
     border-bottom-left-radius: 10px;
 }
-
 .twoCol:last-child td:last-child {
     border-bottom-right-radius: 10px;
 }
-
 .oneCol:last-child td {
     border-radius: 10px 10px 0 0;
 }
-
 .oneCol:last-child td {
     border-radius: 0 0 10px 10px;
 }
@@ -64,7 +61,6 @@ table {
 }
 
 .thead {
-    
     border-radius: 10px 10px 0 0;
 }
 
@@ -82,9 +78,7 @@ td {
     background-color: white !important;
 }
 
-hr {
-
-}
+hr {}
 
 caption { 
     background-color: rgb(90,85,90);
@@ -96,13 +90,9 @@ caption {
     text-align: center !important;
 }
 
-#top-row {
+#top-row {}
 
-}
-
-input, select, .form-label {
-
-}
+input, select, .form-label {}
 
 .form-control {
     align-items: center;
@@ -121,10 +111,6 @@ input, select, .form-label {
     padding:10 0 10 0;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .logo-style1 {
     color:#44c0f0;
     font-weight: bold;
@@ -135,7 +121,7 @@ input, select, .form-label {
   width: 80px;
   text-align: center; 
 }
-  .sk-three-bounce .sk-child {
+.sk-three-bounce .sk-child {
     width: 20px;
     height: 20px;
     background-color: #44c0f0;
@@ -145,10 +131,10 @@ input, select, .form-label {
             animation: sk-three-bounce 1.4s ease-in-out 0s infinite both; 
         
 }
-  .sk-three-bounce .sk-bounce1 {
+.sk-three-bounce .sk-bounce1 {
     -webkit-animation-delay: -0.32s;
             animation-delay: -0.32s; }
-  .sk-three-bounce .sk-bounce2 {
+.sk-three-bounce .sk-bounce2 {
     -webkit-animation-delay: -0.16s;
             animation-delay: -0.16s; }
 
@@ -170,10 +156,6 @@ input, select, .form-label {
         
 }
 
-
 footer {
-    clear: both;
-    position: relative;
-    height: 40px;
-    margin-top: -40px;
+    padding-top: 40px;
 }

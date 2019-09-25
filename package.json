@@ -1,6 +1,6 @@
 {
   "name": "spftoolbox",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "SPFtoolbox is an Application to check simple information such as SPF, DNS records, and more",
   "main": "index.html",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bulbajackel/SPFtoolbox.git"
+    "url": "git+https://github.com/ertomedia/SPFtoolbox.git"
   },
   "author": "Charles Barnes",
   "license": "ISC",

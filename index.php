@@ -1,16 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel='dns-prefetch' href='//cdn.circlehosting.net' />
+<meta name='article:publisher' content='https://www.facebook.com/circlehostingcom' />
+<meta name='twitter:site' content='@ertomedia' />
+<meta name='twitter:creator' content='@ertomedia' />
+<meta name='author' content='CircleHosting' />
+<meta name='designer' content='Ertomedia Solusindo' />
+<meta name='contact' content='info at circlehosting.email' />
+<meta name='copyright' content='CircleHosting © 2018 Ertomedia Solusindo.' />
+<meta name='keywords' content='nvme web hosting, ssd web hosting, shared web hosting, kvm vps ssd, hosting di manado, Github, Open Source, MXToolbox, DNS, Blacklist, MX, PHP' />
+
 <title> Whois - CircleHosting </title>
-<meta name="description" content="SPFtoolbox is a Javascript and PHP app to look up DNS records such as SPF, MX, Whois, and more">
-<meta property="og:description" content="SPFtoolbox is a Javascript and PHP app to look up DNS records such as SPF, MX, Whois, and more" />
-<meta name="keywords" content="Github, Open Source, MXToolbox, DNS, Blacklist, MX, PHP">
-<meta name="author" content="Charles Barnes">
+
 <meta http-equiv="cache-control" content="max-age=0" />
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="expires" content="0" />
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="msapplication-TileColor" content="#44c0f0">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,20 +28,12 @@
 <meta name="apple-mobile-web-app-title" content="SPFToolbox">
 <meta name="theme-color" content="#44c0f0">
 <link rel="shortcut icon" href="https://cdn.circlehosting.net/imgs/favicon.ico" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 <link href="styles/style.css" rel="stylesheet">
-
-<script src ="javascript/main.js"></script>
-
 
 </head>
 <body>
@@ -39,13 +41,13 @@
     <div class="container">
         <div class="row" id="top-row">
             <div class="col-md-12">
-                <img src="https://cdn.circlehosting.net/imgs/circlehostinglogo-ver2-rgb-220x81.png" alt="Logo" />
+                <a href="https://circlehosting.com" target="_blank"><img src="https://cdn.circlehosting.net/imgs/circlehostinglogo-ver2-rgb-220x81.png" alt="Logo CircleHosting" /></a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                    <span class="form-label">Domain:&nbsp;</span><input type="text" name="domain" id="domain" class="form-control">
-                    <select onchange="showAdditionalFields()" id="file" class="form-control">
+                <span class="form-label">Domain:&nbsp;</span><input type="text" name="domain" id="domain" class="form-control">
+                <select onchange="showAdditionalFields()" id="file" class="form-control">
                         <option value="a">IP/Get A Record</option>
                         <option value="aaaa">IPV6/Get AAAA Record</option>
                         <option value="mx">Mx/Get MX Record</option>
@@ -59,11 +61,11 @@
                     </select>
                     <div style="visibility: hidden" id="port-container"><span class="form-label" sty;e>Port:&nbsp;</span><input type="text" name="port" id="port" class="form-control"></div>
                     <input type="button" id="submit" value="submit" class="form-control btn"/>
-            </div>
-            <div class="col-md-6"></div>
-            <div>
-
+                </div>
                 <div class="col-md-6"></div>
+                <div>
+                
+                    <div class="col-md-6"></div>
             </div>
         </div>
         <div class="row">
@@ -139,19 +141,26 @@
             </div>
         </div>
         <div class="row">
-                <div id="responseArea">
+            <div id="responseArea">
                     <div  class="responseTable">
                         
+                        </div>
                     </div>
                 </div>
-        </div>        
-        <div class="row text-center">
-            <div class="col-md-12">
-                <p>CircleHosting © 2016-2019 Ertomedia Solusindo.<br />
-                <small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox" aria-label="View source on Github">SPFToolbox</a>.</small></p>
+                <footer>
+                    <div class="row text-center">
+                <div class="col-md-12">
+                    <p>CircleHosting © 2016-2019 <a href="https://ertomedia.com" target="_blank">Ertomedia Solusindo</a>. Some rights reserved.<br />
+                    <small>Based from <a href="https://github.com/charlesabarnes/SPFtoolbox">SPFToolbox</a></small></p>
+                </div>
             </div>
-        </div>
+        </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src ="javascript/main.js"></script>
 </body>
 
 </html>
