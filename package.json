@@ -1,6 +1,6 @@
 {
   "name": "spftoolbox",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "SPFtoolbox is an Application to check simple information such as SPF, DNS records, and more",
   "main": "index.html",
   "scripts": {

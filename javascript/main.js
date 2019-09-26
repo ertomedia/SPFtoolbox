@@ -123,8 +123,8 @@ window.onload = function() {
 
 function showAdditionalFields() {
     if(document.getElementById("file").value === 'port') {
-        document.getElementById("port-container").style.visibility="visible" ;   
+        document.getElementById("port-container").style.display="flex" ;   
     } else {
-        document.getElementById("port-container").style.visibility="hidden";  
+        document.getElementById("port-container").style.display="none";  
     }
 }
